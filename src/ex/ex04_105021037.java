@@ -17,10 +17,10 @@ public class ex04_105021037 {
 		System.out.print("請輸入一個值");
 		int n=scn.nextInt();
 		System.out.print("請選擇一個字元");
-		String jjj =scn.next();
-		for(int a=0;a<n;a++){
-			for(int b=0;b<=a;b--){
-				System.out.print("jjj");
+		char jjj =scn.next().charAt(0);
+		for(int a=n;a>0;a--){
+			for(int b=1;b<=a;b++){
+				System.out.print(jjj);
 			}System.out.println();
 		}
 

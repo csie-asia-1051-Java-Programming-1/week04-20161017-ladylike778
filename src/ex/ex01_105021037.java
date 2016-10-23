@@ -16,7 +16,7 @@ public class ex01_105021037 {
 		while(a!=-1){
 			b++;
 			sum+=a;
-			System.out.print("請輸入一個值");
+			System.out.println("請輸入一個值");
 			a=scn.nextInt();
 		}
 		b=b-1;
